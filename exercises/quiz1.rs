@@ -10,7 +10,6 @@
 
 
 // Put your function here!
-
 fn calculate_apple_price( quantity: i32 ) -> i32 {
     if quantity > 40 {
         quantity
@@ -18,7 +17,6 @@ fn calculate_apple_price( quantity: i32 ) -> i32 {
         quantity * 2
     }
 }
-
 // Don't modify this function!
 #[test]
 fn verify_test() {
